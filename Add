@@ -112,6 +112,48 @@ for(let i=0;i<num.length-1;i++){
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
+Reverse a string without using reverse().
+
+Check if a string is a palindrome.
+
+Count vowels and consonants in a string.
+
+Find the first non-repeating character.
+
+Check if two strings are anagrams.
+
+Compress a string (Run Length Encoding).
+
+Find the longest substring without repeating characters.
+
+Check if a string is a rotation of another.
+
+Count frequency of each character in a string.
+
+Convert a string to Title Case / Camel Case
+
+
+Reverse an array without using built-in methods.
+
+Find the maximum and minimum element in an array.
+
+Find the second largest / second smallest element.
+
+Check if an array is sorted or not.
+
+Rotate an array by k positions.
+
+Find duplicate elements in an array.
+
+Remove duplicates from an array.
+
+Find the missing number in an array (1 to n).
+
+Merge two sorted arrays into one sorted array.
+
+Kadane’s Algorithm → Find maximum subarray sum.
+
+
 
 
 
