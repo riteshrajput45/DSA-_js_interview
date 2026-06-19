@@ -158,5 +158,38 @@ Kadane’s Algorithm → Find maximum subarray sum.
 
 
 
+const users = [
+//   { name: "Ritesh", city: "Indore" },
+//   { name: "Lalit", city: "Bhopal" },
+//   { name: "Rohan", city: "Indore" }
+// ];
 
+
+// let result = users.reduce((acc,curr)=>{
+//     acc[curr.city] =[...(acc[curr.city]||[]),curr]
+//     return acc
+// },{})
+
+// console.log(result)
+
+let arr =[1,[2,3,[4,5],[6,7]]]
+
+function fltat(arr){
+    let result =[]
+    function rec(newArr){
+        for(let i=0;i<newArr.length;i++){
+            if(Array.isArray(newArr[i])){
+               
+        rec(newArr[i]);
+        }
+        else{
+            result =  [...result,newArr[i]]
+        }
+        
+    }
+}
+    rec(arr)
+    console.log(result)
+}
+fltat(arr)
 
