@@ -231,4 +231,26 @@ for(let i =0;i<str.length;i++){
 }
 console.log(result)
 
-
+const users = [
+  { id: 1, name: "Ritesh" },
+  { id: 2, name: "Rahul" },
+  { id: 1, name: "Ritesh" },
+  { id: 3, name: "Amit" },
+  { id: 2, name: "Rahul" }
+];
+let result =[]
+for(let i=0;i<users.length;i++){
+     let isDuplicate =false
+    for(let j=0;j<result.length;j++){
+        if(users[i].id ===result[j].id && result[j].name===users[i].name){
+            isDuplicate=true
+            continue;
+            break;
+                 
+        }
+    }
+    if(!isDuplicate){
+        result[result.length] = users[i]
+    }
+    
+}
