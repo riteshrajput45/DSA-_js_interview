@@ -172,6 +172,29 @@ Reverse an array without using built-in methods.
 Find the maximum and minimum element in an array.
 
 Find the second largest / second smallest element.
+let num =[100,45,30,40,50,53]
+
+
+let  largestNumber =0
+let  SecoundLargest =0
+
+for(let i=0;i<num.length;i++){
+     if(num[i]>largestNumber){
+        SecoundLargest =largestNumber
+        largestNumber =num[i]
+
+     }
+     else{
+        if(largestNumber>num[i] && largestNumber>SecoundLargest){
+            SecoundLargest = num[i]
+        }
+     }
+}
+console.log(largestNumber)
+console.log(SecoundLargest)
+
+
+
 
 Check if an array is sorted or not.
 
