@@ -313,4 +313,29 @@ for(let i=0;i<users.length;i++){
 }
 
 ##########################################################################
-first nonrepeat crecter return you want 
+which currect come to multitime 
+let str ="aaabbbccccdddaaaacccccccc"
+
+
+
+let char =""
+let charCount =0
+
+
+for(let i =0; i<str.length;i++){
+let count =0
+
+  for(let j =0; j<str.length;j++){
+
+    if(str[i] === str[j]){
+        count ++
+    }
+  }   
+  if(count > charCount){
+    charCount = count
+    char = str[i]
+    count =0
+  }
+  
+}
+console.log(char+charCount)
